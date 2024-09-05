@@ -68,6 +68,15 @@ Some utilities will install automatically
 - clangd
 - sonarlint vscode 4.7.0 (unzip and curl required)
 
+#### Dependencies
+
+- Sonarlint requires Java 17
+
+```bash
+apt install openjdk-17-jdk openjdk-17-jre
+```
+
+
 ### Commands
 
 - View diagnostics with `:Trouble`
