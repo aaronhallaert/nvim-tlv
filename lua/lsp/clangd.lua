@@ -17,7 +17,7 @@ return {
     end
   end,
   cmd = {
-    '/usr/bin/clangd',
+    'clangd',
     '--clang-tidy',
     '--query-driver=' .. require('televic').build_scripts_path .. '/toolchains/' .. require('televic').toolchainfile .. '/bin/i686-linux-g++',
   },
