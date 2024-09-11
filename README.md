@@ -8,6 +8,7 @@ Execute the following to get the latest stable version:
 
 ```sh
 git clone git@github.com:neovim/neovim.git
+cd neovim
 git checkout stable
 make CMAKE_BUILD_TYPE=Release
 sudo make install
