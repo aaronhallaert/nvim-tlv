@@ -19,6 +19,6 @@ return {
   cmd = {
     'clangd',
     '--clang-tidy=false', -- sonarlint only required in CI
-    '--query-driver=' .. require('televic').build_scripts_path .. '/toolchains/' .. require('televic').toolchainfile .. '/bin/i686-linux-g++',
+    '--query-driver=' .. vim.fn.expand '$HOME' .. '/**/*g++',
   },
 }

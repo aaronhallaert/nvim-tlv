@@ -52,7 +52,7 @@ M.setup = function()
       settings = {
         -- The default for sonarlint is {}, this is just an example
         sonarlint = {
-          pathToCompileCommands = require('televic').plixus_apps_build_dir .. '/compile_commands.json',
+          pathToCompileCommands = 'compile_commands.json',
         },
       },
       autostart = true,
